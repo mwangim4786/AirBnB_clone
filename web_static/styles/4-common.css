@@ -1,0 +1,15 @@
+/* 
+ * Global Styling
+*/
+
+/* Global Styling */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styling */
+.container {
+    margin: 30px auto;
+    max-width: 1000px;
+}
