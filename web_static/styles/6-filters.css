@@ -31,6 +31,7 @@
 .filters .locations,
 .filters .amenities {
     display: inline-block;
+    position: relative;
     height: 100%;
     width: 25%;
 }
@@ -50,6 +51,12 @@
             margin: 0;
 }
 
+.filters h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 12px auto 0 30px;
+}
+
 /* headings styling */
 .filters h3 {
     font-weight: 600;
@@ -62,6 +69,11 @@
     font-size: 14px;
     height: 50%;
     padding: 5px 0 12px 30px;
+}
+
+.filters .locations:hover,
+.filters .amenities:hover {
+ background-color: #fafafa;
 }
 
 .filters .popover {
